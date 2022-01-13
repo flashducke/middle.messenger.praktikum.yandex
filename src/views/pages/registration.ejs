@@ -1,0 +1,54 @@
+<%- include('../components/head') %>
+
+<main class="page-reg page-form h-stretch">
+    <div class="page-reg-form page-form-container">
+        <div class="base-form">
+            <h1>Регистрация</h1>
+            <form action="" method="post">
+                <div class="form-group">
+                    <input type="email" name="email" id="email-input" required>
+                    <label class="input-label" for="email-input">Почта</label>
+
+                    <span class="input-error"></span>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="login" id="login-input" required>
+                    <label class="input-label" for="login-input">Логин</label>
+
+                    <span class="input-error"></span>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="name" id="name-input" required>
+                    <label class="input-label" for="name-input">Имя</label>
+
+                    <span class="input-error"></span>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="lastName" id="last-name-input" required>
+                    <label class="input-label" for="last-name-input">Фамилия</label>
+
+                    <span class="input-error"></span>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" id="password-input" required>
+                    <label class="input-label" for="password-input">Пароль</label>
+
+                    <span class="input-error"></span>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="repeatPassword" id="repeat-password-input" required>
+                    <label class="input-label" for="repeat-password-input">Пароль (еще раз)</label>
+
+                    <span class="input-error"></span>
+                </div>
+                <div class="form-footer">
+                    <button type="submit" class="btn submit-btn">Зарегистрироваться</button>
+                    <a href="" class="form-link no-account-link">Нет аккаунта?</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</main>
+
+<%- include('../components/footer') %>

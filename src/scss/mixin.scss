@@ -1,0 +1,43 @@
+//base
+@mixin pseudo-element($content: "", $display: block, $pos: absolute) {
+  content: $content;
+  display: $display;
+  position: $pos;
+}
+
+@mixin translateX() {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin translateY() {
+  top: 50%;
+  transform: translateY(-50%);
+}
+@mixin translateCenter() {
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+@mixin tablet {
+  @media screen and (max-width: $tablet){
+    @content;
+  }
+}
+
+@mixin phone {
+  @media screen and (max-width: $phone){
+    @content;
+  }
+}
+
+@mixin sm-phone {
+  @media screen and (max-width: $sm-phone){
+    @content;
+  }
+}
+
+
+// keyframes
+

@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $baseFF;
+  font-size: $baseFS;
+  line-height: $baseLH;
+  font-weight: $baseFW;
+  color: $black;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// title
+h1, h2, h3 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: $baseFW;
+}
+
+h1 {
+  font-family: $baseFF;
+  font-size: 1.667em;
+  line-height: 1;
+}
+
+// list
+ul.not-mark {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
+  }
+}
+
+// container modificated
+.h-stretch {
+  height: 100vh;
+}

@@ -1,0 +1,61 @@
+<%- include('../components/head') %>
+
+<main class="page-profile">
+
+    <div class="wrapper">
+        <div class="profile-content">
+            <div class="profile-head">
+                <div class="profile-avatar-container">
+                    <div class="avatar profile-avatar"
+                         style="" id="profile-avatar"></div>
+
+                    <label for="avatar-change-file" class="avatar-change-trigger">
+                        <span>Поменять аватар</span>
+
+                    </label>
+                    <input type="file" name="avatar" size="40" class="" id="avatar-change-file" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt,.avi,.ogg,.m4a,.mov,.mp3,.mp4,.mpg,.wav,.wmv" aria-invalid="false">
+                </div>
+
+                <div class="profile-name">Иван</div>
+            </div>
+            <div class="profile-settings">
+                <form action="" method="post" class="profile-list">
+                    <div class="form-group profile-list-item">
+                        <label class="input-label" for="email-input">Почта</label>
+                        <input type="email" name="email" id="email-input" placeholder="pochta@yandex.ru" required>
+                    </div>
+                    <div class="form-group profile-list-item">
+                        <label class="input-label" for="login-input">Логин</label>
+                        <input type="text" name="login" id="login-input" placeholder="ivanivanov" required>
+                    </div>
+                    <div class="form-group profile-list-item">
+                        <label class="input-label" for="name-input">Имя</label>
+                        <input type="text" name="name" id="name-input" placeholder="Иван" required>
+                    </div>
+                    <div class="form-group profile-list-item">
+                        <label class="input-label" for="last-name-input">Фамилия</label>
+                        <input type="text" name="lastName" id="last-name-input" placeholder="Иванов" required>
+                    </div>
+                    <div class="form-group profile-list-item">
+                        <label class="input-label" for="last-name-input">Имя в чате</label>
+                        <input type="text" name="displayName" id="last-name-input" placeholder="Иван" required>
+                    </div>
+                    <div class="form-group profile-list-item">
+                        <label class="input-label" for="last-name-input">Телефон</label>
+                        <input type="text" name="phone" id="last-name-input" placeholder="+7 (909) 967 30 30" required>
+                    </div>
+                    <div class="form-footer">
+                        <button type="submit" class="btn submit-btn">Сохранить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="profile-back-link">
+        <a href="profile.ejs" class="arrow-back-link"></a>
+    </div>
+
+
+</main>
+
+<%- include('../components/footer') %>

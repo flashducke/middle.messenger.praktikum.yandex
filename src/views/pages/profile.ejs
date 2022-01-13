@@ -1,0 +1,51 @@
+<%- include('../components/head') %>
+
+<main class="page-profile">
+    <div class="wrapper">
+        <div class="profile-content">
+            <div class="profile-head">
+                <div class="profile-avatar-container">
+                    <div class="avatar profile-avatar"
+                         style=""></div>
+                </div>
+                <div class="profile-name">Иван</div>
+            </div>
+            <ul class="profile-info not-mark profile-list">
+                <li class="profile-info-item profile-list-item">
+                    <div class="info-item-name">Почта</div>
+                    <div class="info-item-value">pochta@yandex.ru</div>
+                </li>
+                <li class="profile-info-item profile-list-item">
+                    <div class="info-item-name">Логин</div>
+                    <div class="info-item-value">ivanivanov</div>
+                </li>
+                <li class="profile-info-item profile-list-item">
+                    <div class="info-item-name">Имя</div>
+                    <div class="info-item-value">Иван</div>
+                </li>
+                <li class="profile-info-item profile-list-item">
+                    <div class="info-item-name">Фамилия</div>
+                    <div class="info-item-value">Иванов</div>
+                </li>
+                <li class="profile-info-item profile-list-item">
+                    <div class="info-item-name">Имя в чате</div>
+                    <div class="info-item-value">Иван</div>
+                </li>
+                <li class="profile-info-item profile-list-item">
+                    <div class="info-item-name">Телефон</div>
+                    <div class="info-item-value">+7 (909) 967 30 30</div>
+                </li>
+            </ul>
+            <ul class="profile-settings not-mark profile-list">
+                <li class="profile-list-item"><a href="profile-settings.ejs">Изменить данные</a></li>
+                <li class="profile-list-item"><a href="change-password.ejs">Изменить пароль</a></li>
+                <li class="profile-list-item"><a href="login.ejs" class="exit-link">Выйти</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="profile-back-link">
+        <a href="chat.ejs" class="arrow-back-link"></a>
+    </div>
+</main>
+
+<%- include('../components/footer') %>

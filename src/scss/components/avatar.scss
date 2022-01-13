@@ -1,0 +1,12 @@
+// avatar
+.avatar {
+  border-radius: 50%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../static/img/base-avatar.png");
+  &.profile-avatar {
+    width: 130px;
+    height: 130px;
+  }
+}

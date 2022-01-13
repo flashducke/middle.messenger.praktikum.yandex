@@ -1,0 +1,38 @@
+// page error
+.page-error-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 3.333em;
+    text-align: center;
+    margin: 25px 0 20px;
+  }
+  .error-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .error-icon {
+    width: 139px;
+    height: 139px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    &.error-find-icon {
+      background-image: url("../../static/img/svg/find-error.svg");
+    }
+    &.error-server-icon {
+      background-image: url("../../static/img/svg/server-error.svg");
+    }
+  }
+  .error-descr {
+    text-align: center;
+    font-size: 1.667em;
+  }
+  .error-back-link {
+    margin-top: 70px;
+  }
+}

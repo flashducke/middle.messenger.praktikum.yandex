@@ -26,4 +26,4 @@
 
 - Макет Figma: https://www.figma.com/file/dlF3cwMYinkrnK2SJOI3Pm/yndex.messenger?node-id=0%3A1
 - pull request из ветки `sprint_1`: https://github.com/flashducke/middle.messenger.praktikum.yandex/pull/1
-- домен из Netlify: 
+- домен из Netlify: https://thirsty-agnesi-f4e8f7.netlify.app

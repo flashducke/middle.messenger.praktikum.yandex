@@ -2,11 +2,10 @@
   "name": "sprint_v1",
   "version": "1.0.0",
   "description": "",
-  "main": "src/js/index.js",
   "scripts": {
     "start": "node app.js",
     "dev": "parcel src/views/pages/*.ejs",
-    "build": "parcel build src/views/pages/*.ejs --no-minify"
+    "build": "parcel build src/views/pages/*.ejs"
   },
   "author": "",
   "license": "ISC",
@@ -14,15 +13,15 @@
     "node": "16.13.1"
   },
   "dependencies": {
-    "@parcel/transformer-sass": "^2.1.1",
+    "@parcel/transformer-sass": "^2.2.0",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "scss": "^0.2.4"
   },
   "devDependencies": {
     "ejs-mate": "^3.0.0",
-    "parcel": "^2.1.1",
-    "parcel-bundler": "^1.12.5",
-    "parcel-plugin-ejs-template": "^0.2.0"
+    "parcel": "^2.2.0",
+    "parcel-plugin-ejs-template": "^0.2.0",
+    "parcel-transformer-ejs": "^0.2.0"
   }
 }

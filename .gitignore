@@ -15,4 +15,5 @@ logs
 .idea/
 .vscode/
 .cache/
+.parcel-cache/
 *.sw*

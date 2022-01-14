@@ -14,4 +14,6 @@ logs
 # Игнорирование файлов специфичных для IDE
 .idea/
 .vscode/
+.cache/
+.parcel-cache/
 *.sw*
